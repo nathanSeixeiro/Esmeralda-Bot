@@ -1,0 +1,31 @@
+{
+  "name": "bottelegram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts "
+  },
+  "keywords": [],
+  "author": "Nathan Seixeiro",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "telegraf": "^4.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanSeixeiro/Esmeralda-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanSeixeiro/Esmeralda-Bot/issues"
+  },
+  "homepage": "https://github.com/nathanSeixeiro/Esmeralda-Bot#readme",
+  "description": ""
+}
